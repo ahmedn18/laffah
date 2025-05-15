@@ -59,3 +59,38 @@
     max-width: 200%;
     height: auto;
 }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 50px;
+            max-width: 1500px;
+            margin: 0 auto;
+            padding-top: 200px;
+        }
+        
+        .grid-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #666;
+            margin-bottom: 10px;
+            border-radius: 20px;
+        }
+        
+        .resource-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .resource-location {
+            font-size: 16px;
+            color: #666;
+        }
