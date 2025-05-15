@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #addfff;
+  min-height: 100vh;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  min-height: 10vh;
+  margin-top: 50px;
+  padding-top: 20px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-button {
+  background: #368ca8;
+  color: #0d3b56;
+  padding: 15px 30px;
+  border: 2px solid black;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
+
+  transition: transform 0.2s, background 0.3s;
+}
+
+.nav-button:hover {
+  transform: scale(1.05);
+  background: radial-gradient(circle, #c9f3ff, #368ca8);
+}
+
+.homepage-content {
+  text-align: center;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.homepage-content h1 {
+  font-size: 48px;
+  color: #0d3b56;
+  margin-bottom: 20px;
+}
+
+.homepage-content p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.location-card {
+  background-color: #8ecad1;
+  border-radius: 20px;
+  padding: 30px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.location-name {
+  color: #1a5567;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.icon-circle {
+  background-color: #f0b2a3;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.smile-icon {
+  font-size: 40px;
+  color: black;
+  line-height: 1;
+}
+
+.laffah-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.restaurant-icon {
+    max-width: 200%;
+    height: auto;
+}
+
+        .outing-icon {
+    max-width: 170%;
+    height: auto;
+}   
+
+.cafe-icon {
+    width: 70%;
+    height: auto;
+}

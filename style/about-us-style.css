@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.header {
+  background-color: #a7dff2;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  width: 35px;
+  cursor: pointer;
+}
+
+.hamburger div {
+  height: 5px;
+  background-color: #000;
+  margin: 6px 0;
+  width: 100%;
+}
+
+.about-button {
+  background-color: #65b7cc;
+  color: #004159;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo-text {
+  text-align: right;
+  font-weight: bold;
+  color: #004159;
+  font-size: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #004159;
+  font-size: 32px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.content-box {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 40px;
+  position: relative;
+}
+
+.content-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid #45b5c1;
+  border-radius: 40px;
+  z-index: -1;
+}
+
+.content-text {
+  color: #004159;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.logo-container img {
+  width: 70px;
+  height: auto;
+  border-radius: 20%;
+}

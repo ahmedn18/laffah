@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: #a7dff2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    width: 100%;
+}
+
+.ham-and {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.menu-icon div {
+    width: 30px;
+    height: 4px;
+    background-color: #000;
+    margin: 3px 0;
+}
+
+.icon-circle {
+    background-color: #f0b2a3;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.service-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.cafe-icon {
+    width: 70%;
+    height: auto;
+}
+
+.cafes-title {
+    font-weight: bold;
+    font-size: 2.8rem;
+    white-space: nowrap;
+}
+
+.logo {
+    margin-left: auto;
+}
+
+.logo img {
+    height: 60px;
+    border-radius: 25%;
+}
